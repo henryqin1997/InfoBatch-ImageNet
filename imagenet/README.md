@@ -1,6 +1,6 @@
 # InfoBatch Example on Pytorch ImageNet 
 
-To run the base ImageNet experiment with InfoBatch, 
+To run the base ImageNet experiment with InfoBatch, substitute the corresponding path to ImageNet and run
 ```
 chmod +x r50_unsup_90.sh
 ./r50_unsup_90.sh
