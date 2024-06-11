@@ -1,0 +1,3 @@
+#python3 main.py -a resnet101 --dist-url 'tcp://127.0.0.1:12346' --dist-backend 'nccl' --multiprocessing-distributed --world-size 1 --rank 0 /tmp/data/IN1K -b 1024 --lr 1.3 ;
+python3 prune_experiment.py -a resnet101 --dist-url 'tcp://127.0.0.1:12346' --dist-backend 'nccl' --multiprocessing-distributed --world-size 1 --rank 0 /tmp/data/IN1K -b 1024 --lr 3.8 --epochs 200 --ratios 0.5 0.5 0.5 ;
+python3 /mnt/bn/dc-in-nas/zhanka.py
